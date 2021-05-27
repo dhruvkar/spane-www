@@ -1,0 +1,18 @@
+languageCode = "en-us"
+title = "social impact organizations | spane.org"
+baseURL = "https://www.spane.org/"
+disableHugoGeneratorInject = "true"
+
+disableKinds = ["taxonomy", "taxonomyTerm"] 
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+  extensions = ["hardLineBreak"]
+
+
+[params]
+    sitedescription = "we invest in social impact businesses as a cardano stake pool"
+    logo = "img/logo.jpg"
+    twitter = "https://www.twitter.com/spane_org"
+    publicemail = "hi@spane.org"
